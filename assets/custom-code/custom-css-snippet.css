@@ -1,0 +1,123 @@
+/* Hide price and rating (cards presented as rescue profiles) */
+.woocommerce ul.products li.product .price,
+.woocommerce ul.products li.product .star-rating {
+  display: none !important;
+}
+
+/* Card meta layout */
+.woocommerce ul.products li.product .dog-card-meta{
+  margin-top:.6rem;
+  font-size:15px;
+  line-height:1.6;
+}
+.woocommerce ul.products li.product .dog-name{
+  font-size:18px;
+  margin-bottom:.25rem;
+}
+
+/* Status badge styles */
+.woocommerce ul.products li.product .dog-status{
+  display:inline-block;
+  margin-top:.35rem;
+  padding:.28rem .66rem;
+  border-radius:999px;
+  font-weight:600;
+  font-size:13px;
+  line-height:1;
+}
+.woocommerce ul.products li.product .dog-status.status-available{
+  background:#E8FFF1; color:#167A52;
+}
+.woocommerce ul.products li.product .dog-status.status-fostered{
+  background:#FFF6E5; color:#A36200;
+}
+.woocommerce ul.products li.product .dog-status.status-adopted{
+  background:#FDE8EA; color:#A01A2A;
+}
+/* Hide default WooCommerce product title on cards (Astra / general selector) */
+.woocommerce ul.products li.product .woocommerce-loop-product__title{
+  display:none !important;
+}
+/* Hide Add to Cart button on product cards */
+.woocommerce ul.products li.product .button,
+.woocommerce ul.products li.product .add_to_cart_button,
+.woocommerce ul.products li.product .product_type_simple {
+    display: none !important;
+}
+
+/* Also hide the cart icon overlay if present */
+.woocommerce ul.products li.product .elementor-add-to-cart {
+    display: none !important;
+}
+
+/* Default: dark text color */
+.woocommerce ul.products li.product a {
+  color: #1C244B !important;
+}
+
+/* Hover: bright orange */
+.woocommerce ul.products li.product a:hover {
+  color: #FFAB2C !important;
+}
+```// filepath: /Users/ellie_Main/Desktop/college/pawdo-capstone/assets/custom-code/custom-css-snippet.css
+/* Hide price and rating (cards presented as rescue profiles) */
+.woocommerce ul.products li.product .price,
+.woocommerce ul.products li.product .star-rating {
+  display: none !important;
+}
+
+/* Card meta layout */
+.woocommerce ul.products li.product .dog-card-meta{
+  margin-top:.6rem;
+  font-size:15px;
+  line-height:1.6;
+}
+.woocommerce ul.products li.product .dog-name{
+  font-size:18px;
+  margin-bottom:.25rem;
+}
+
+/* Status badge styles */
+.woocommerce ul.products li.product .dog-status{
+  display:inline-block;
+  margin-top:.35rem;
+  padding:.28rem .66rem;
+  border-radius:999px;
+  font-weight:600;
+  font-size:13px;
+  line-height:1;
+}
+.woocommerce ul.products li.product .dog-status.status-available{
+  background:#E8FFF1; color:#167A52;
+}
+.woocommerce ul.products li.product .dog-status.status-fostered{
+  background:#FFF6E5; color:#A36200;
+}
+.woocommerce ul.products li.product .dog-status.status-adopted{
+  background:#FDE8EA; color:#A01A2A;
+}
+/* Hide default WooCommerce product title on cards (Astra / general selector) */
+.woocommerce ul.products li.product .woocommerce-loop-product__title{
+  display:none !important;
+}
+/* Hide Add to Cart button on product cards */
+.woocommerce ul.products li.product .button,
+.woocommerce ul.products li.product .add_to_cart_button,
+.woocommerce ul.products li.product .product_type_simple {
+    display: none !important;
+}
+
+/* Also hide the cart icon overlay if present */
+.woocommerce ul.products li.product .elementor-add-to-cart {
+    display: none !important;
+}
+
+/* Default: dark text color */
+.woocommerce ul.products li.product a {
+  color: #1C244B !important;
+}
+
+/* Hover: bright orange */
+.woocommerce ul.products li.product a:hover {
+  color: #FFAB2C !important;
+}
